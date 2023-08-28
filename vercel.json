@@ -2,15 +2,15 @@
   "buildCommand": "pnpm turbo build",
   "crons": [
     {
-      "path": "/api/cron/price-quote/update_btc",
+      "path": "/api/cron/price-quote/update-btc",
       "schedule": "*/5 * * * *"
     },
     {
-      "path": "/api/cron/price-quote/update_vti",
+      "path": "/api/cron/price-quote/update-vti",
       "schedule": "*/5 * * * *"
     },
     {
-      "path": "/api/cron/price-quote/update_bnd",
+      "path": "/api/cron/price-quote/update-bnd",
       "schedule": "*/5 * * * *"
     }
   ]

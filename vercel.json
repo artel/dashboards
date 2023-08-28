@@ -1,4 +1,17 @@
 {
   "buildCommand": "pnpm turbo build",
-  "ignoreCommand": "pnpm dlx turbo-ignore"
+  "crons": [
+    {
+      "path": "/api/cron/price-quote/update_btc",
+      "schedule": "*/5 * * * *"
+    },
+    {
+      "path": "/api/cron/price-quote/update_vti",
+      "schedule": "*/5 * * * *"
+    },
+    {
+      "path": "/api/cron/price-quote/update_bnd",
+      "schedule": "*/5 * * * *"
+    }
+  ]
 }

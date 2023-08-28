@@ -1,0 +1,1 @@
+create table if not exists price_quote(id serial primary key, symbol text not null, price decimal not null, date timestamp not null);
